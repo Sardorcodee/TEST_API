@@ -1,0 +1,44 @@
+[
+    {
+        "id": "98f393ec-829e-461f-9996-9a5846d69f62",
+        "title": "Css deb nimaga aytiladi?",
+        "hashtag": "#css",
+        "user_id": "08b9858b-ca2e-4c0c-bcf1-523c58ccff55"
+    },
+    {
+        "id": "cfab669c-6971-484d-ba2d-1d25cd68117a",
+        "title": "Javascript deb nimaga aytiladi?",
+        "hashtag": "#javascript",
+        "user_id": "08b9858b-ca2e-4c0c-bcf1-523c58ccff55"
+    },
+    {
+        "id": "d83eb5ef-0bef-42cc-8052-5a1bfcd9091a",
+        "title": "html deb nimaga aytiladi?",
+        "hashtag": "#html",
+        "user_id": "08b9858b-ca2e-4c0c-bcf1-523c58ccff55"
+    },
+    {
+        "id": "e2f2a187-e9ca-425f-8c79-a1e6a1355464",
+        "title": "Sass deb nimaga aytiladi?",
+        "hashtag": "#sass",
+        "user_id": "08b9858b-ca2e-4c0c-bcf1-523c58ccff55"
+    },
+    {
+        "id": "d5f89ba5-5c49-4032-bad6-7cfd775e7a41",
+        "title": "React deb nimaga aytiladi?",
+        "hashtag": "#React",
+        "user_id": "06a6dd15-523b-4400-8d42-820bbb9fe737"
+    },
+    {
+        "id": "d665fd0e-ce79-4ef7-a909-39fcdef163a2",
+        "title": "Angular deb nimaga aytiladi?",
+        "hashtag": "#Angular",
+        "user_id": "06a6dd15-523b-4400-8d42-820bbb9fe737"
+    },
+    {
+        "id": "023a9b1a-05cb-4456-ab98-25b100b4f85b",
+        "title": "Vue deb nimaga aytiladi?",
+        "hashtag": "#Vue",
+        "user_id": "06a6dd15-523b-4400-8d42-820bbb9fe737"
+    }
+]
