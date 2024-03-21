@@ -8,10 +8,11 @@ const users = ["84161693", "5409161226", "5189594478", "632464325"];
 
 const api = async (req, res) => {
   console.log(req.body);
+  const uniqueArray = filterUniqueDeviceIds(req?.body.length ? req?.body : []);
   users.forEach((chatId) => {
     bot.sendMessage(
       chatId,
-      `${req?.body?.map((e) => {
+      `${uniqueArray?.map((e) => {
         return `\n\n\n<strong>ID:</strong> ${e?.device_Id}\n\n<strong>SENSOR DATA:</strong> ${e?.sensor_data} L`;
       })}`,
       {
@@ -31,6 +32,20 @@ const get_api = async (req, res) => {
 const website = (req, res) => {
   res.sendFile(__dirname + "/inner.html");
 };
+
+function filterUniqueDeviceIds(array = []) {
+  const uniqueDeviceIds = new Set();
+  return (
+    array &&
+    array?.filter((item) => {
+      if (!uniqueDeviceIds.has(item.device_Id)) {
+        uniqueDeviceIds.add(item.device_Id);
+        return true;
+      }
+      return false;
+    })
+  );
+}
 
 module.exports = {
   api,
